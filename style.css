@@ -1,0 +1,28 @@
+.image-preview{
+    margin: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-preview img{
+    border-bottom: 30px lightgreen solid;
+    border-top: 30px skyblue solid;
+    border-right: 30px lightpink solid;
+    border-left: 30px #ffefd5 solid;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+  }
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+tbody{
+    text-align: center;
+}
+tr td:first-child{
+    text-align: start;
+}
